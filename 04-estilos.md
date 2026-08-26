@@ -4,7 +4,7 @@ title: Acerca de mi
 nav_order: 5
 ---
 # Acerca de mi
-¡Hola! Soy *Leonardo García Contreras, tengo 18 años y estudio en la **Universidad Iberoamericana*.
+¡Hola! Soy *Leonardo García Contreras, tengo 18 años y estudio en la *Universidad Iberoamericana*.
 
 # Cómo soy
 
