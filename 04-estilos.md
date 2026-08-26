@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Estilos y personalización visual
+title: Acerca de mi
 nav_order: 5
 ---
 
