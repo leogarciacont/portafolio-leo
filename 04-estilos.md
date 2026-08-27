@@ -97,7 +97,3 @@ Cuando algo despierta mi interés, investigo muchísimo hasta entenderlo por com
 ---
 
 Este es mi portafolio, donde iré documentando semana a semana el proceso de este curso.
-
-
-##Contacto
-instagram:[@leo_gxc_](https://instagram.com/leo_gxc_)
