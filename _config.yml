@@ -30,8 +30,9 @@ search:
 aux_links:
   "instagram":
    - "https://instagram.com/leo_gxc_"
+
   "Repositorio en GitHub":
-    - "https://github.com/HuberGiron/portafolio-just-the-docs"
+        - "https://github.com/HuberGiron/portafolio-just-the-docs"
 
 # Enlaces
 permalink: pretty
