@@ -89,6 +89,9 @@ Obstáculo encontrado: al principio escribí `"instagram":` al mismo nivel de in
 
 Segundo obstáculo: una vez que el link ya aparecía visualmente, al darle clic me mandaba a una página rota dentro de mi propio sitio en lugar de a Instagram. Después de revisar con calma, encontré que había un error de sintaxis en esa parte del archivo. Al corregirlo, hice `commit` y `push` de los cambios, esperé a que GitHub Pages reconstruyera el sitio, y finalmente el link funcionó correctamente.
 
+![Figura 4– captura de pantalla]
+(assets/img/03-markdown/captura de pantalla.png)
+
 
 ## Conclusión
 
