@@ -29,8 +29,9 @@ Estuve probando distintas combinaciones de `nav_order` hasta lograr un menú con
 
 **Obstáculo encontrado:** cambiaba el `title` de un archivo (por ejemplo `03-markdown.md`) y esperaba ver el nuevo título en el panel de archivos del editor, pero seguía mostrando el nombre del archivo tal cual. Pensé que el cambio no funcionaba, hasta que entendí que el panel de archivos siempre muestra el *nombre del archivo*, mientras que el `title` solo se refleja una vez publicada la página, en el menú de navegación y en el encabezado del navegador. Nombre de archivo y título de página son cosas distintas.
 
-## Paso 3: Escribir la sección "Acerca de mí"
+![Figura 1— titulo](assets/img/03-markdown/github.png)
 
+## Paso 3: Escribir la sección "Acerca de mí"
 Esta fue la parte que más tiempo me llevó. Agregué mi información personal:
 
 - Quién soy y en dónde estudio.
@@ -39,7 +40,7 @@ Esta fue la parte que más tiempo me llevó. Agregué mi información personal:
 - Mis metas a futuro.
 - Mis fortalezas y áreas en las que quiero mejorar.
 
-![Figura 3 — ](assets/img/03-markdown/github.png)
+![Figura 2 — acerca de mi](assets/img/03-markdown/github.png)
 
 Quise que se sintiera como una pequeña autobiografía y no solo una lista de datos sueltos, así que reescribí el contenido varias veces hasta que sentí que reflejaba quién soy realmente.
 
@@ -64,7 +65,7 @@ Modifiqué el archivo `custom.css` para ajustar la paleta de colores:
 2. Cambié el color principal de [color anterior] a [color nuevo].
 3. Guardé, hice commit y push para ver el cambio reflejado.
 
-![Figura 2 — colores](assets/img/03-markdown/github.png)
+![Figura 3 — colores](assets/img/03-markdown/github.png)
 
 ## Paso 6: Agregar mi foto de perfil
 
