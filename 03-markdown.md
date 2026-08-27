@@ -61,7 +61,7 @@ Modifiqué el archivo `custom.css` para ajustar la paleta de colores:
 1. Ubiqué las variables de color dentro de `assets/css/custom.css`.
 2. Cambié el color principal de [color anterior] a [color nuevo].
 3. Guardé, hice commit y push para ver el cambio reflejado.
-
+![Figura 2 — GitHub](assets/img/03-publicar/github.png)
 
 ## Paso 6: Agregar mi foto de perfil
 
@@ -84,6 +84,7 @@ aux_links:
 Obstáculo encontrado: al principio escribí `"instagram":` al mismo nivel de indentación que `aux_links:`, sin darme cuenta de que en YAML la indentación define la jerarquía. Al estar al mismo nivel, el archivo no lo interpretaba como parte de `aux_links`, sino como una clave aparte, así que el link ni siquiera aparecía en la página. Le agregué dos espacios de indentación para que quedara anidado correctamente debajo de `aux_links`, y con eso el link empezó a mostrarse en el sitio.
 
 Segundo obstáculo: una vez que el link ya aparecía visualmente, al darle clic me mandaba a una página rota dentro de mi propio sitio en lugar de a Instagram. Después de revisar con calma, encontré que había un error de sintaxis en esa parte del archivo. Al corregirlo, hice `commit` y `push` de los cambios, esperé a que GitHub Pages reconstruyera el sitio, y finalmente el link funcionó correctamente.
+
 
 ## Conclusión
 
