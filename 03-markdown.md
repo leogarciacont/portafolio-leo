@@ -39,6 +39,8 @@ Esta fue la parte que más tiempo me llevó. Agregué mi información personal:
 - Mis metas a futuro.
 - Mis fortalezas y áreas en las que quiero mejorar.
 
+![Figura 3 — ](assets/img/03-markdown/github.png)
+
 Quise que se sintiera como una pequeña autobiografía y no solo una lista de datos sueltos, así que reescribí el contenido varias veces hasta que sentí que reflejaba quién soy realmente.
 
 ## Paso 4: Entender el flujo de publicación (commit y push)
@@ -61,7 +63,8 @@ Modifiqué el archivo `custom.css` para ajustar la paleta de colores:
 1. Ubiqué las variables de color dentro de `assets/css/custom.css`.
 2. Cambié el color principal de [color anterior] a [color nuevo].
 3. Guardé, hice commit y push para ver el cambio reflejado.
-![Figura 2 — GitHub](assets/img/03-publicar/github.png)
+
+![Figura 2 — colores](assets/img/03-markdown/github.png)
 
 ## Paso 6: Agregar mi foto de perfil
 
