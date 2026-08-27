@@ -3,12 +3,6 @@ layout: default
 title: Semana 1.
 nav_order: 4
 ---
-# semana 1
----
-layout: default
-title: Semana 1
-nav_order: 4
----
 
 # Semana 1
 
