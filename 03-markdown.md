@@ -77,7 +77,7 @@ Modifiqué el archivo `custom.css` para ajustar la paleta de colores:
 
 Quise agregar un enlace a mi Instagram en la parte superior del sitio, junto al buscador. Para esto usé la opción `aux_links` dentro de `_config.yml`:
 
-![Figura 4– Captura de Pantalla](assets/img/03-markdown/Captura de Pantalla 2026-08-27 a la(s)7.17.11.png)
+![Figura 4 – Captura de Pantalla](assets/img/03-markdown/Captura de Pantalla 2026-08-27 a la(s)7.17.11.png)
 
 
 aux_links:
