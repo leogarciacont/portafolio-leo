@@ -3,15 +3,10 @@ layout: default
 title: Acerca de mi
 nav_order: 5
 ---
----
-layout: default
-title: Acerca de mí
-nav_order: 1
----
 
 # Acerca de mí
 
-Me llamo **Leonardo García Contreras**, tengo 18 años y actualmente estudio en la **Universidad Iberoamericana**, una etapa que apenas estoy comenzando y que me tiene muy entusiasmado, sobre todo porque siento que finalmente voy a poder enfocarme de lleno en las áreas que más me apasionan: la tecnología y la ingeniería. Antes de llegar a la universidad, cursé mis estudios en el **Colegio Simón Bolívar**, una institución que recuerdo con mucho cariño porque ahí fue donde empecé a descubrir de forma más práctica mi gusto por la tecnología, y donde tuve la oportunidad de participar en un torneo de sumo de robots, diseñando, construyendo y programando un robot capaz de competir contra otros dentro de un ring. Fue un proceso lleno de prueba y error, ajustes mecánicos y trabajo en equipo, y terminó siendo una de las experiencias más formativas que he tenido, porque me enseñó que la ingeniería no se trata solo de teoría, sino de construir cosas reales y seguir intentando hasta que funcionen.
+Me llamo **Leonardo García Contreras**, tengo 18 años y actualmente estudio en la *Universidad Iberoamericana*, una etapa que apenas estoy comenzando y que me tiene muy entusiasmado, sobre todo porque siento que finalmente voy a poder enfocarme de lleno en las áreas que más me apasionan: la tecnología y la ingeniería. Antes de llegar a la universidad, cursé mis estudios en el **Colegio Simón Bolívar**, una institución que recuerdo con mucho cariño porque ahí fue donde empecé a descubrir de forma más práctica mi gusto por la tecnología, y donde tuve la oportunidad de participar en un torneo de sumo de robots, diseñando, construyendo y programando un robot capaz de competir contra otros dentro de un ring. Fue un proceso lleno de prueba y error, ajustes mecánicos y trabajo en equipo, y terminó siendo una de las experiencias más formativas que he tenido, porque me enseñó que la ingeniería no se trata solo de teoría, sino de construir cosas reales y seguir intentando hasta que funcionen.
 
 ## Cómo soy
 
