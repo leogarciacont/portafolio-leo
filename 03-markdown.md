@@ -76,7 +76,8 @@ Modifiqué el archivo `custom.css` para ajustar la paleta de colores:
 ## Paso 7: Agregar el link de Instagram
 
 Quise agregar un enlace a mi Instagram en la parte superior del sitio, junto al buscador. Para esto usé la opción `aux_links` dentro de `_config.yml`:
-![Figura 4– Captura de Pantalla](assets/img/03-markdown/Captura de Pantalla.png)
+
+![Figura 4– Captura de Pantalla](assets/img/03-markdown/Captura%20de%20Pantalla%202026-08-27%20a%20la(s)%207.17.11.pngpng)
 
 
 aux_links:
