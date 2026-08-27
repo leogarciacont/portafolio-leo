@@ -62,6 +62,7 @@ Modifiqué el archivo `custom.css` para ajustar la paleta de colores:
 2. Cambié el color principal de [color anterior] a [color nuevo].
 3. Guardé, hice commit y push para ver el cambio reflejado.
 
+
 ## Paso 6: Agregar mi foto de perfil
 
 1. Subí mi foto a la carpeta `assets/img`.
