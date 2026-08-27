@@ -69,7 +69,7 @@ Modifiqué el archivo `custom.css` para ajustar la paleta de colores:
 2. Referencié la imagen en el archivo correspondiente usando la ruta relativa.
 3. Verifiqué que se viera bien en distintos tamaños de pantalla.
 -->
-## Paso 6: Agregar el link de Instagram
+## Paso 7: Agregar el link de Instagram
 
 Quise agregar un enlace a mi Instagram en la parte superior del sitio, junto al buscador. Para esto usé la opción `aux_links` dentro de `_config.yml`:
 
