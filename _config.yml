@@ -28,8 +28,8 @@ search:
 
 # Ejemplo de enlace auxiliar (aparece arriba a la derecha)
 aux_links:
-"instagram":
--"https://instagram.com/leo_gxc_"
+  "instagram":
+   -"https://instagram.com/leo_gxc_"
   "Repositorio en GitHub":
     - "https://github.com/HuberGiron/portafolio-just-the-docs"
 
