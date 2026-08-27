@@ -76,6 +76,7 @@ Modifiqué el archivo `custom.css` para ajustar la paleta de colores:
 ## Paso 7: Agregar el link de Instagram
 
 Quise agregar un enlace a mi Instagram en la parte superior del sitio, junto al buscador. Para esto usé la opción `aux_links` dentro de `_config.yml`:
+![Figura 4– Captura de Pantalla](assets/img/03-markdown/Captura de Pantalla.png)
 
 
 aux_links:
@@ -88,9 +89,6 @@ aux_links:
 Obstáculo encontrado: al principio escribí `"instagram":` al mismo nivel de indentación que `aux_links:`, sin darme cuenta de que en YAML la indentación define la jerarquía. Al estar al mismo nivel, el archivo no lo interpretaba como parte de `aux_links`, sino como una clave aparte, así que el link ni siquiera aparecía en la página. Le agregué dos espacios de indentación para que quedara anidado correctamente debajo de `aux_links`, y con eso el link empezó a mostrarse en el sitio.
 
 Segundo obstáculo: una vez que el link ya aparecía visualmente, al darle clic me mandaba a una página rota dentro de mi propio sitio en lugar de a Instagram. Después de revisar con calma, encontré que había un error de sintaxis en esa parte del archivo. Al corregirlo, hice `commit` y `push` de los cambios, esperé a que GitHub Pages reconstruyera el sitio, y finalmente el link funcionó correctamente.
-
-![Figura 4– Captura de Pantalla]
-(assets/img/03-markdown/Captura de Pantalla.png)
 
 
 ## Conclusión
