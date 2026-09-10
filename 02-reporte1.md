@@ -96,7 +96,7 @@ void loop()
 
 
 ## 01 PIN_13_HIGH
-Link del video: [Práctica_01](assets/videosWhatsApp%20Video%202026-09-10%20at%2010.19.09%20AM.mp4)
+Link del video: [Práctica_01][/workspaces/leo-portafolio/assets/videos/WhatsApp Video 2026-09-10 at 10.19.09 AM.mp4]
 ![Práctica_02](assets/img/Tarea_1/practicas/02.png)
 
 Aquí se configuró el indicador LED del arduino para que se mantenga encendido (HIGH).
@@ -159,7 +159,7 @@ void loop()
 }
 
 ## 04 Led parpadeando
-Link del video: [Práctica_04](https://youtube.com/shorts/o_R1jhTqSz4?feature=share)
+Link del video: [Práctica_04][def3]
 ![Práctica_05](assets/img/Tarea_1/practicas/05.png)
 
 Se programó el arduino para que el LED se encendiera y se apagara al encontrarse conectado directamente al arduino.
@@ -852,3 +852,5 @@ void loop()
 Estas prácticas son fundamentales ya que, gracias a ellas, podemos conocer las funciones básicas de arduino IDE, apreciamos la distribución de los pines en el microcontrolador Arduino UNO, realizamos varios sistemas con varios componentes electrónicos y comprobamos el funcionamiento del códgico en conjunto con los circuitos armados. Este tipo de herramientas nos abre las puertas para poder diseñar, construir y aplicar diversas herramientas de sistemas, facilitando así la realización de proyectos mecatrónicos.
 
 [def]: assets
+[def2]: assets/videosWhatsApp%20Video%202026-09-10%20at%2010.19.09%20AM.mp4
+[def3]: assests/videos/
