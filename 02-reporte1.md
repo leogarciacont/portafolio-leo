@@ -34,14 +34,19 @@ Jumper HEMBRA HEMBRA
 ## LED:
 ![LED](assets/img/02-estructura/led.jpg)
 ## Resistencias:
-![Resistencia 1k Ohm](assets/img/02-estructura/resietncia.jpg) ![Resistencia 220 ohms](assets/img/02-estructura/res.jpg) 
+## Resistencia 1k Ohm
+![Resistencia 1k Ohm](assets/img/02-estructura/resietncia.jpg) 
+
+
+## Resistencia 20k Ohm
+![Resistencia 220 ohms](assets/img/02-estructura/res.jpg) 
 ## Display de 7 segmentos:
 ![Display](assets/img/02-estructura/8.png)
 ## Servomotor 9g:
 ![Servo](assets/img/02-estructura/serrvo.jpg)
 ## Potenciómetro:
 ![Potenciómetro](assets/img/02-estructura/poten.jpg)
-## Push button (NO):
+## Boton:
 ![Push button](assets/img/02-estructura/boton.jpg)
 
 # Prácticas
