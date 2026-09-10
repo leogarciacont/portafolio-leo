@@ -159,7 +159,7 @@ void loop()
 }
 
 ## 04 Led parpadeando
-Link del video: [Práctica_04][def3]
+Link del video: [Práctica_04][workspaces/leo-portafolio/assets/videos/WhatsApp Video 2026-09-10 at 10.19.09 AM.mp4]
 ![Práctica_05](assets/img/Tarea_1/practicas/05.png)
 
 Se programó el arduino para que el LED se encendiera y se apagara al encontrarse conectado directamente al arduino.
