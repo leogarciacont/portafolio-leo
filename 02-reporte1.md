@@ -21,8 +21,12 @@ En la mayoría de ellos, su hardware consta de una placa que contiene un microco
 ## Protoboard:
 ![Protoboard](assets/img/Tarea_1/material/protoboard.jpeg)
 ## Jumpers:
-![Jumpers](assets/img/02-estructura/images%20(1).jpeg)
-
+Jumper MACHO HEMBRA
+![Jumpers](assets/img/02-estructura/j%20mh.jpg)
+JUMPER MACHO MACHO
+![Jumpers](assets/img/02-estructura/MM.jpg)
+Jumper HEMBRA HEMBRA
+![Jumpers](assets/img/02-estructura/hh.jpg)
 ## LED:
 ![LED](assets/img/02-estructura/led.jpg)
 ## Resistencias:
@@ -32,11 +36,9 @@ En la mayoría de ellos, su hardware consta de una placa que contiene un microco
 ## Servomotor 9g:
 ![Servo](assets/img/02-estructura/serrvo.jpg)
 ## Potenciómetro:
-![Potenciómetro](assets/img/Tarea_1/material/potenciometro.jpeg)
-## Fuente de poder:
-![Fuente](assets/img/Tarea_1/material/fuente.jpeg)
+![Potenciómetro](assets/img/02-estructura/poten.jpg)
 ## Push button (NO):
-![Push button](assets/img/Tarea_1/material/boton.jpeg)
+![Push button](assets/img/02-estructura/boton.jpg)
 
 # Prácticas
 
