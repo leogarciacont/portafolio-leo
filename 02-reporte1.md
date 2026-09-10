@@ -24,13 +24,13 @@ En la mayoría de ellos, su hardware consta de una placa que contiene un microco
 ![Jumpers](assets/img/02-estructura/images%20(1).jpeg)
 
 ## LED:
-![LED](assets/img/Tarea_1/material/led.jpeg)
+![LED](assets/img/02-estructura/led.jpg)
 ## Resistencias:
-![Resistencia 1k Ohm](assets/img/Tarea_1/material/1k_ohm.jpeg) ![Resistencia 220 ohms](assets/img/Tarea_1/material/220_ohm.jpeg) 
+![Resistencia 1k Ohm](assets/img/02-estructura/resietncia.jpg) ![Resistencia 220 ohms](assets/img/02-estructura/resi%2020.jpg) 
 ## Display de 7 segmentos:
 ![Display](assets/img/Tarea_1/material/display.jpeg)
 ## Servomotor 9g:
-![Servo](assets/img/Tarea_1/material/servo9g.jpeg)
+![Servo](assets/img/02-estructura/serrvo.jpg)
 ## Potenciómetro:
 ![Potenciómetro](assets/img/Tarea_1/material/potenciometro.jpeg)
 ## Fuente de poder:
