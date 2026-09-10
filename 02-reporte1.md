@@ -15,59 +15,28 @@ En la mayoría de ellos, su hardware consta de una placa que contiene un microco
 # Lista de materiales:
 
 ## Arduino UNO:
-![Arduino UNO](assets/img/Tarea_1/material/a1.jpeg)
-
-Microcontrolador programable que controla el funcionamiento del proyecto mediante el código cargado desde la computadora.
-
+![Arduino UNO](assets/img/02-estructura/images.jpeg)
 ## Cable USB-A a USB-B:
-![Cable](assets/img/Tarea_1/material/cable.jpeg)
-
-Se usa para conectar el Arduino UNO a la computadora, cargar los programas y, proporcionar alimentación eléctrica.
-
+![Cable](assets/img/02-estructura/descarga.jpeg)
 ## Protoboard:
 ![Protoboard](assets/img/Tarea_1/material/protoboard.jpeg)
-
-Tablero de pruebas que permite crear circuitos eléctricos con distintos componentes.
-
 ## Jumpers:
-![Jumpers](assets/img/Tarea_1/material/jumpers.jpeg)
-
-Cables que pueden unir lineas de la protoboard, hacer saltos entre ellas y conectarse a los pines del Arduino UNO.
+![Jumpers](assets/img/02-estructura/images%20(1).jpeg)
 
 ## LED:
 ![LED](assets/img/Tarea_1/material/led.jpeg)
-
-Diodo emisor de luz empleado para simular salidas de tipo High y Low.
-
 ## Resistencias:
 ![Resistencia 1k Ohm](assets/img/Tarea_1/material/1k_ohm.jpeg) ![Resistencia 220 ohms](assets/img/Tarea_1/material/220_ohm.jpeg) 
-
-Componentes que limitan el paso de corriente y protegen los elementos electrónicos.
-
 ## Display de 7 segmentos:
 ![Display](assets/img/Tarea_1/material/display.jpeg)
-
-Dispositivo formado por siete LEDs que permite mostrar números o letras.
-
 ## Servomotor 9g:
 ![Servo](assets/img/Tarea_1/material/servo9g.jpeg)
-
-Es un motor con encoder que, gracias a este último, permite girar el eje a posiciones específicas según la cantidad de voltaje que reciba, todo esto mediante la programación.
-
 ## Potenciómetro:
 ![Potenciómetro](assets/img/Tarea_1/material/potenciometro.jpeg)
-
-Resistencia variable que permite regular a manualmente la potencia que circule a través de él.
-
 ## Fuente de poder:
 ![Fuente](assets/img/Tarea_1/material/fuente.jpeg)
-
-Suministra la energía necesaria para alimentar el Arduino y los componentes del circuito.
-
 ## Push button (NO):
 ![Push button](assets/img/Tarea_1/material/boton.jpeg)
-
-Botón que permite el flujo de corriente cuando se oprime debido a que se encuentra normalmente abierto (NO).
 
 # Prácticas
 
