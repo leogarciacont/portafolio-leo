@@ -21,15 +21,15 @@ En la mayoría de ellos, su hardware consta de una placa que contiene un microco
 ## Protoboard:
 ![Protoboard](assets/img/02-estructura/proto.jpg)
 ## Jumpers:
-Jumper MACHO HEMBRA
+## Jumper MACHO HEMBRA
 ![Jumpers](assets/img/02-estructura/mh.jpg)
 
 
-JUMPER MACHO MACHO
+## JUMPER MACHO MACHO
 ![Jumpers](assets/img/02-estructura/MM.jpg)
 
 
-Jumper HEMBRA HEMBRA
+## Jumper HEMBRA HEMBRA
 ![Jumpers](assets/img/02-estructura/hh.jpg)
 ## LED:
 ![LED](assets/img/02-estructura/led.jpg)
