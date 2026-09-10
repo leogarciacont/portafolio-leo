@@ -19,10 +19,10 @@ En la mayoría de ellos, su hardware consta de una placa que contiene un microco
 ## Cable USB-A a USB-B:
 ![Cable](assets/img/02-estructura/descarga.jpeg)
 ## Protoboard:
-![Protoboard](assets/img/Tarea_1/material/protoboard.jpeg)
+![Protoboard](assets/img/02-estructura/proto.jpg)
 ## Jumpers:
 Jumper MACHO HEMBRA
-![Jumpers](assets/img/02-estructura/j%20mh.jpg)
+![Jumpers](assets/img/02-estructura/mh.jpg)
 JUMPER MACHO MACHO
 ![Jumpers](assets/img/02-estructura/MM.jpg)
 Jumper HEMBRA HEMBRA
@@ -30,9 +30,9 @@ Jumper HEMBRA HEMBRA
 ## LED:
 ![LED](assets/img/02-estructura/led.jpg)
 ## Resistencias:
-![Resistencia 1k Ohm](assets/img/02-estructura/resietncia.jpg) ![Resistencia 220 ohms](assets/img/02-estructura/resi%2020.jpg) 
+![Resistencia 1k Ohm](assets/img/02-estructura/resietncia.jpg) ![Resistencia 220 ohms](assets/img/02-estructura/res.jpg) 
 ## Display de 7 segmentos:
-![Display](assets/img/Tarea_1/material/display.jpeg)
+![Display](assets/img/02-estructura/8.png)
 ## Servomotor 9g:
 ![Servo](assets/img/02-estructura/serrvo.jpg)
 ## Potenciómetro:
