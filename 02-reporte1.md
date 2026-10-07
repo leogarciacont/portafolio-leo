@@ -40,16 +40,16 @@ En la mayoría de ellos, su hardware consta de una placa que contiene un microco
 
 ## Resistencia 20k Ohm
 ![Resistencia 220 ohms](assets/img/02-estructura/res.jpg) 
-## Display de 7 segmentos:
+## Display de segmentos:
 ![Display](assets/img/02-estructura/8.png)
-## Servomotor 9g:
+## Servomotor:
 ![Servo](assets/img/02-estructura/serrvo.jpg)
 ## Potenciómetro:
 ![Potenciómetro](assets/img/02-estructura/poten.jpg)
 ## Boton:
 ![Push button](assets/img/02-estructura/boton.jpg)
 
-# Prácticas
+# reporte
 
 ## 00 Prueba parpadeo PIN 13 Arduino UNO
 Link del video: [Práctica_00](https://youtube.com/shorts/im3Q0wr0bbQ?feature=share)
