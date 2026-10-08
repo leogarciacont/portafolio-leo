@@ -51,9 +51,9 @@ En la mayoría de ellos, su hardware consta de una placa que contiene un microco
 
 # reporte
 
-## 00 Prueba parpadeo PIN 
+## 00 Prueba parpadeo PIN
 
-Esta práctica nos permite ver el Arduino inicializado, con la evidencia de que el indicador LED de entradas se encuentra parpadeando.
+En esta primera prueba se verificó el funcionamiento básico de la tarjeta Arduino mediante el LED integrado. El programa enciende y apaga el LED cada segundo, por lo que sirve para comprobar que la placa está ejecutando correctamente el código cargado.
 
 Código práctica :
 yml
@@ -75,7 +75,7 @@ void loop()
 
 ## 01 PIN_13_HIGH
 
-Aquí se configuró el indicador LED del arduino para que se mantenga encendido (HIGH).
+En esta práctica se configuró el pin 13 como una salida digital y se mantuvo en estado `HIGH`. Como resultado, el LED conectado a ese pin permanece encendido de forma continua mientras el programa está en ejecución.
 
 Código práctica :
 yml
@@ -93,7 +93,7 @@ void loop()
 
 ## 02 PIN_13
 
-En ésta parte se configuró el indicador LED para que se mantuviera apagado (LOW).
+En este ejercicio se trabajó nuevamente con el pin 13, pero ahora se estableció permanentemente en estado `LOW`. De esta forma se comprobó cómo apagar una salida digital desde el programa.
 
 Código práctica :
 yml
@@ -111,7 +111,7 @@ void loop()
 
 ## 03 Delay
 
-Aquí se programó el arduino para que el indicador LED tenga un retraso (delay) de 1 segundo.
+Aquí se utilizó la función `delay()` para controlar el tiempo entre el encendido y el apagado del LED. Se estableció una espera de 1000 milisegundos en cada estado, generando un parpadeo regular de un segundo.
 
 Código práctica :
 yml
@@ -132,7 +132,7 @@ void loop()
 
 ## 04 Led parpadeando
 
-Se programó el arduino para que el LED se encendiera y se apagara al encontrarse conectado directamente al arduino.
+En esta prueba se conectó un LED y se programó una secuencia de encendido y apagado. El objetivo fue observar directamente cómo una salida digital del Arduino puede controlar un componente externo siguiendo un intervalo de tiempo definido.
 
 Código práctica :
 yml
@@ -153,7 +153,7 @@ void loop()
 
 ## 05 Circuito con resistor para Led
 
-Se construyó un circuito con una resistencia de 220 ohmios para proteger al LED. A su vez, el código permitía que el LED parpadeara como en el ejercicio anterior.
+Para esta práctica se agregó una resistencia en serie con el LED con el fin de limitar la corriente y proteger el componente. El programa conserva la secuencia de parpadeo, mientras que el circuito incorpora una conexión más adecuada para trabajar con el LED.
 
 Código práctica :
 yml
@@ -174,7 +174,7 @@ void loop()
 
 ## 06 Circuito con dos LEDs alternando
 
-Se expandió el circuito existente añadiendo un LED y resistencia adicional en paralelo, y el código permitía que parpadearan intermitentemente uno tras otro.
+En este circuito se emplearon dos LEDs controlados desde los pines 13 y 12. El programa enciende primero un LED, lo apaga y posteriormente realiza la misma secuencia con el segundo, creando un efecto de alternancia entre ambos.
 
 Código práctica :
 yml
@@ -200,7 +200,7 @@ void loop()
 
 ## 07 Circuito con dos LEDs emparejados
 
-En escencia es el mismo circuito que el anterior, solo que el programa hace que los LEDs vayan a la misma frecuencia.
+En esta práctica se buscó que los LEDs trabajaran con el mismo ritmo de encendido y apagado. La señal generada en el pin 13 cambia entre `HIGH` y `LOW` cada segundo, permitiendo que los LEDs conectados al mismo control sigan la misma frecuencia.
 
 Código práctica :
 yml
@@ -221,7 +221,7 @@ void loop()
 
 ## 08 Display de 7 segmentos
 
-Se hicieron las conexiones correspondientes al display de 7 segmentos para que mostrara el número 9. Esto gracias a que el código mandaba señales HIGH y LOW a los pines correspondientes del display.
+En este ejercicio se realizaron las conexiones de un display de 7 segmentos y se configuraron sus segmentos como salidas digitales. El código activa los segmentos `a` a `g` y también el punto decimal, permitiendo comprobar individualmente el funcionamiento completo del display.
 
 Código práctica :
 yml
@@ -254,7 +254,7 @@ void loop()
 
 ## 09 Contador
 
-Se hizo un programa para realizar una secuencia númerica del 1 al 3 (no se hicieron bien las conexiones).
+En esta práctica se programó una secuencia numérica en el display de 7 segmentos. El código modifica el estado de cada segmento para mostrar consecutivamente los números 0, 1 y 2, manteniendo cada número visible durante un segundo.
 
 Código práctica :
 yml
@@ -311,7 +311,7 @@ void loop()
 
 ## 10 Entrada digital con botón
 
-Construimos un circuito en el que un botón permitía el flujo de corriente a un LED, siendo el estado del botón la condición lógica.
+Aquí se utilizó un botón como entrada digital y un LED como salida. El Arduino lee directamente el estado del botón en el pin 8 y copia ese valor al LED del pin 13, por lo que el LED responde al estado lógico de la entrada.
 
 Código práctica :
 yml
@@ -332,7 +332,7 @@ void loop()
 
 ## 11 Entrada digital con dos botónes
 
-En escencia es la práctica anterior pero con dos botones.
+En esta práctica se amplió el ejercicio anterior utilizando dos botones y dos LEDs. Cada botón controla de manera independiente un LED, permitiendo comprobar cómo el Arduino puede leer varias entradas digitales y actuar sobre distintas salidas al mismo tiempo.
 
 Código práctica :
 yml
@@ -357,7 +357,7 @@ void loop()
 
 ## 12 Entrada digital con condición
 
-Lo que hace este código es leer el estado del botón, en este caso cuando se pulsa, el arduino lee que se cumple la condición y enciende el LED, cuando no se cumple lo apaga.
+En este ejercicio se agregó una estructura condicional para decidir qué hacer con el LED según el estado del botón. Si la lectura del pin 8 es `HIGH`, el LED se enciende; si la lectura es `LOW`, el programa lo apaga.
 
 Código práctica :
 yml
@@ -386,7 +386,7 @@ void loop()
 
 ## 13 Entrada digital con condición (dos botones)
 
-Hace exactamente lo mismo que la práctica anterior pero con dos botones.
+Esta práctica aplica la misma lógica condicional a dos pares de entrada y salida. Cada botón es evaluado por separado y el programa enciende o apaga el LED correspondiente dependiendo de su estado.
 
 Código práctica :
 yml
@@ -426,7 +426,7 @@ void loop()
 
 ## 14 Condición OR con botones
 
-Se simuló una condición tipo OR en el código, haciendo que, si un botón *O* ambos estaban presionados, entonces el LED se encendía, si *ninguno* se encontraba presionado, entonces se apagaba.
+En esta prueba se implementó una condición lógica OR utilizando dos botones. El LED se enciende cuando al menos uno de los dos botones está activado y solamente permanece apagado cuando ambos se encuentran desactivados.
 
 Código práctica :
 yml
@@ -458,7 +458,7 @@ void loop()
 
 ## 15 Condición AND con botones
 
-En este caso se simuló una compuerta tipo AND, siendo que la condición se cumple cuando *solo si* se presionan ambos botones..
+En este ejercicio se utilizó una condición lógica AND. Para que el LED se encienda es necesario que los dos botones estén activados simultáneamente; si cualquiera de ellos no está presionado, la salida permanece apagada.
 
 Código práctica :
 yml
@@ -490,7 +490,7 @@ void loop()
 
 ## 16 Contador
 
-Se diseñó un circuito de LEDs en paralelo con la función de representar una cuenta, con un código que, por cada vez que se presionaba un botón, un LED adicional se iluminaba, y al llegar al máximo de LEDs iluminados, se reiniciaba la cuenta apagando todos los LEDs.
+En esta práctica se creó un contador controlado por un botón y representado mediante cuatro LEDs. Cada pulsación incrementa la variable `cuenta` y enciende un LED adicional. Cuando el valor llega a cinco, el contador regresa a cero y todos los LEDs se apagan para comenzar nuevamente.
 
 Código práctica :
 yml
@@ -560,7 +560,7 @@ void loop()
 
 ## 17 Inicio Servo
 
-Este programa hacía que, al conectar un servomotor al arduino, hacía que este tomara el valor inicial de 0° sin importar su posición.
+En esta primera prueba con servomotor se utilizó la biblioteca `Servo.h` y se conectó el servo al pin 9. El programa ordena al motor colocarse en una posición de 90°, permitiendo verificar la comunicación entre el Arduino y el servomotor.
 
 Código práctica :
 yml
@@ -585,7 +585,7 @@ void loop()
 
 ## 18 Posiciones Servo
 
-Con este código, se creó una secuencia de posiciones en las que el servomotor se colocaba cada segundo. Dicha secuencia se repite indefinidamente.
+En este ejercicio se programó una secuencia automática para el servomotor. El motor se mueve a 0°, después a 90° y finalmente a 180°, esperando un segundo entre cada posición. Al terminar, la secuencia vuelve a comenzar.
 
 Código práctica :
 yml
@@ -622,7 +622,7 @@ void loop()
 
 ## 19 Un servomotor con potenciómetro
 
-Se diseñó un circuito que, dependiendo la corriente que permitiera pasar el potenciómetro, el servo tomaría valores de 0 a 180 grados. En el código se define una normalización de valores que se leen en la librería del servo de 0 a 5V.
+En esta práctica el movimiento del servomotor se controló mediante un potenciómetro conectado a la entrada analógica A0. El Arduino lee valores entre 0 y 1023 y utiliza `map()` para convertirlos en un rango de 0° a 180°, de modo que la posición del potenciómetro determina el ángulo del servo.
 
 Código práctica :
 yml
@@ -656,7 +656,7 @@ void loop()
 
 ## 20 Dos servomotores con un potenciómetro
 
-En esta práctica, se utilizaron dos servomotores y sus posiciones estaban definidas por un solo potenciómetro.
+En este ejercicio un solo potenciómetro controla dos servomotores al mismo tiempo. La lectura de A0 se transforma a un ángulo de 0° a 180° y esa misma posición se envía a ambos motores, haciendo que se desplacen de forma sincronizada.
 
 Código práctica :
 yml
@@ -696,7 +696,7 @@ void loop()
 
 ## 21 Dos servomotores con dos potenciómetros
 
-Aquí, similar que en la práctica 19 se controlan dos servomotores utilizando un potenciómetro para cada uno.
+En esta práctica se utilizaron dos potenciómetros para controlar dos servomotores de manera independiente. Las entradas A0 y A1 se leen por separado y cada valor se convierte en un ángulo distinto, permitiendo ajustar individualmente la posición de cada motor.
 
 Código práctica :
 yml
@@ -743,7 +743,7 @@ void loop()
 
 ## 22 Servomotor con fuente externa
 
-Dentro de esta última práctica, se conectó una fuente externa a los pines Vcc y GND del servomotor para brindarle potencia diferente a la proporcionada por el arduino.
+En esta última práctica se trabajó con servomotores alimentados mediante una fuente externa. El Arduino continúa enviando las señales de control a los motores, mientras que la alimentación externa proporciona la energía necesaria para su movimiento. Para que el sistema funcione correctamente, la tierra de la fuente y la del Arduino deben compartir una referencia común.
 
 Código práctica :
 yml
@@ -783,7 +783,7 @@ void loop()
 
 ## Concluisón
 
-Estas prácticas son fundamentales ya que, gracias a ellas, podemos conocer las funciones básicas de arduino IDE, apreciamos la distribución de los pines en el microcontrolador Arduino UNO, realizamos varios sistemas con varios componentes electrónicos y comprobamos el funcionamiento del códgico en conjunto con los circuitos armados. Este tipo de herramientas nos abre las puertas para poder diseñar, construir y aplicar diversas herramientas de sistemas, facilitando así la realización de proyectos mecatrónicos.
+A lo largo de estas prácticas se trabajó de forma progresiva con las funciones principales del Arduino UNO. Primero se utilizaron salidas digitales para controlar LEDs y un display de 7 segmentos; después se incorporaron botones como entradas y condiciones lógicas para tomar decisiones dentro del programa. Finalmente se trabajó con servomotores, potenciómetros y alimentación externa.
 
-
+El conjunto de ejercicios permitió relacionar la programación con el comportamiento físico de los circuitos. También ayudó a comprender mejor la distribución de pines, la lectura de señales digitales y analógicas, el uso de estructuras condicionales y el control de actuadores. Estas bases son útiles para desarrollar proyectos posteriores de electrónica, automatización y mecatrónica.
 
