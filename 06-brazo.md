@@ -280,23 +280,56 @@ Se realizaron varias pruebas para verificar que ninguna articulación forzara el
 
 En esta prueba se verifica el movimiento del brazo y la respuesta de los servomotores al utilizar los controles manuales.
 
-<video class="media-frame" controls playsinline preload="metadata">
-  <source src="{{ '/assets/videos/brazo-prueba-60s.mp4' | relative_url }}" type="video/mp4">
+<video id="brazo-prueba-hq" class="media-frame" controls playsinline preload="metadata">
   Tu navegador no puede reproducir este video.
 </video>
 
-<p class="caption">Fragmento de 5 segundos de la primera prueba del brazo.</p>
+<p class="caption">Prueba de movimiento de 1 minuto en mayor calidad.</p>
 
 # Prueba final: pase de pelota entre robots
 
 La prueba final consistió en coordinar dos brazos robóticos para manipular una pelota. El ejercicio permitió comprobar la precisión de la pinza, el alcance del brazo y la coordinación necesaria para transferir el objeto de un robot a otro.
 
-<video class="media-frame" controls playsinline preload="metadata">
-  <source src="{{ '/assets/videos/brazo-pase-pelota-60s.mp4' | relative_url }}" type="video/mp4">
+<video id="brazo-pase-hq" class="media-frame" controls playsinline preload="metadata">
   Tu navegador no puede reproducir este video.
 </video>
 
-<p class="caption">Fragmento de la prueba de pase de pelota entre dos brazos robóticos.</p>
+<p class="caption">Prueba de pase de pelota entre robots de 1 minuto en mayor calidad.</p>
+
+<script>
+async function cargarVideoBrazo(id, archivos) {
+  const video = document.getElementById(id);
+  try {
+    const base = "{{ '/assets/videos/hq-chunks/' | relative_url }}";
+    const partes = await Promise.all(
+      archivos.map(async (nombre) => {
+        const respuesta = await fetch(base + nombre);
+        if (!respuesta.ok) throw new Error("No se pudo cargar " + nombre);
+        const b64 = (await respuesta.text()).replace(/\s+/g, "");
+        const binario = atob(b64);
+        const bytes = new Uint8Array(binario.length);
+        for (let i = 0; i < binario.length; i++) {
+          bytes[i] = binario.charCodeAt(i);
+        }
+        return bytes;
+      })
+    );
+    video.src = URL.createObjectURL(new Blob(partes, { type: "video/mp4" }));
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+cargarVideoBrazo("brazo-prueba-hq", [
+  "prueba-01.txt","prueba-02.txt","prueba-03.txt",
+  "prueba-04.txt","prueba-05.txt","prueba-06.txt"
+]);
+
+cargarVideoBrazo("brazo-pase-hq", [
+  "pase-01.txt","pase-02.txt","pase-03.txt",
+  "pase-04.txt","pase-05.txt"
+]);
+</script>
 
 # Resultados
 
