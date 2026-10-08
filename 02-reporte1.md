@@ -5,13 +5,13 @@ nav_order: 4
 ---
 # Reporte 1
 
-En este Reporte se realizaron diversos códigos en Arduino UNO, así, probando las funciones básicas que posee el microcontrolador por medio de circuitos simples, utilizando principalmente entradas y salidas, tanto analogicas y digitales, como también mecánicas.
+En este reporte se documentan distintas prácticas realizadas con un Arduino UNO. A través de ejercicios sencillos se trabajó con entradas y salidas digitales, señales analógicas y componentes mecánicos, con el propósito de comprender de manera práctica cómo responde el microcontrolador ante diferentes circuitos y programas.
 
 #  Arduino, ¿Qué es?
 
-Arduino es software de código abierto con lnguaje C++, es un software libre y, además, tiene diferentes modelos de hard. Fue creado en italia en 2005 para desarrollar prototipos interactivos. Permite el uso de varios modelos de microordenadores a libertad del usuario.
+Arduino es una plataforma de desarrollo de hardware y software de código abierto utilizada para crear proyectos electrónicos y prototipos interactivos. Sus placas integran un microcontrolador que puede recibir información de sensores o botones y, a partir del programa cargado, controlar elementos como LEDs, displays y servomotores.
 
-En la mayoría de ellos, su hardware consta de una placa que contiene un microcontrolador principal que permite controlar sus elementos periféricos.
+La programación se realiza normalmente desde el Arduino IDE utilizando una sintaxis basada en C/C++. Existen distintos modelos de placas, pero el Arduino UNO es uno de los más utilizados para aprender electrónica y programación por su facilidad de uso y la cantidad de recursos disponibles.
 # Lista de materiales:
 
 ## Arduino UNO:
