@@ -55,8 +55,9 @@ En la mayoría de ellos, su hardware consta de una placa que contiene un microco
 
 En esta primera prueba se verificó el funcionamiento básico de la tarjeta Arduino mediante el LED integrado. El programa enciende y apaga el LED cada segundo, por lo que sirve para comprobar que la placa está ejecutando correctamente el código cargado.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 //
 void setup()
@@ -71,14 +72,15 @@ void loop()
   digitalWrite(LED_BUILTIN, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
 }
-
+```
 
 ## 01 PIN_13_HIGH
 
 En esta práctica se configuró el pin 13 como una salida digital y se mantuvo en estado `HIGH`. Como resultado, el LED conectado a ese pin permanece encendido de forma continua mientras el programa está en ejecución.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 //
 void setup()
@@ -90,13 +92,15 @@ void loop()
 {
   digitalWrite(13, HIGH);
 }
+```
 
 ## 02 PIN_13
 
 En este ejercicio se trabajó nuevamente con el pin 13, pero ahora se estableció permanentemente en estado `LOW`. De esta forma se comprobó cómo apagar una salida digital desde el programa.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 //
 void setup()
@@ -108,13 +112,15 @@ void loop()
 {
   digitalWrite(13, LOW);
 }
+```
 
 ## 03 Delay
 
 Aquí se utilizó la función `delay()` para controlar el tiempo entre el encendido y el apagado del LED. Se estableció una espera de 1000 milisegundos en cada estado, generando un parpadeo regular de un segundo.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 //
 void setup()
@@ -129,13 +135,15 @@ void loop()
   digitalWrite(13, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
 }
+```
 
 ## 04 Led parpadeando
 
 En esta prueba se conectó un LED y se programó una secuencia de encendido y apagado. El objetivo fue observar directamente cómo una salida digital del Arduino puede controlar un componente externo siguiendo un intervalo de tiempo definido.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 //
 void setup()
@@ -150,13 +158,15 @@ void loop()
   digitalWrite(13, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
 }
+```
 
 ## 05 Circuito con resistor para Led
 
 Para esta práctica se agregó una resistencia en serie con el LED con el fin de limitar la corriente y proteger el componente. El programa conserva la secuencia de parpadeo, mientras que el circuito incorpora una conexión más adecuada para trabajar con el LED.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 //
 void setup()
@@ -171,13 +181,15 @@ void loop()
   digitalWrite(13, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
 }
+```
 
 ## 06 Circuito con dos LEDs alternando
 
 En este circuito se emplearon dos LEDs controlados desde los pines 13 y 12. El programa enciende primero un LED, lo apaga y posteriormente realiza la misma secuencia con el segundo, creando un efecto de alternancia entre ambos.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 //
 void setup()
@@ -197,13 +209,15 @@ void loop()
   digitalWrite(12, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
 }
+```
 
 ## 07 Circuito con dos LEDs emparejados
 
 En esta práctica se buscó que los LEDs trabajaran con el mismo ritmo de encendido y apagado. La señal generada en el pin 13 cambia entre `HIGH` y `LOW` cada segundo, permitiendo que los LEDs conectados al mismo control sigan la misma frecuencia.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 //
 void setup()
@@ -218,13 +232,15 @@ void loop()
   digitalWrite(13, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
 }
+```
 
 ## 08 Display de 7 segmentos
 
 En este ejercicio se realizaron las conexiones de un display de 7 segmentos y se configuraron sus segmentos como salidas digitales. El código activa los segmentos `a` a `g` y también el punto decimal, permitiendo comprobar individualmente el funcionamiento completo del display.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 //
 void setup()
@@ -251,13 +267,15 @@ void loop()
   digitalWrite(9, HIGH); //Segmento punto
   delay(1000);
 }
+```
 
 ## 09 Contador
 
 En esta práctica se programó una secuencia numérica en el display de 7 segmentos. El código modifica el estado de cada segmento para mostrar consecutivamente los números 0, 1 y 2, manteniendo cada número visible durante un segundo.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 //
 void setup()
@@ -308,13 +326,15 @@ void loop()
   delay(1000);
   
 }
+```
 
 ## 10 Entrada digital con botón
 
 Aquí se utilizó un botón como entrada digital y un LED como salida. El Arduino lee directamente el estado del botón en el pin 8 y copia ese valor al LED del pin 13, por lo que el LED responde al estado lógico de la entrada.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 //
 
@@ -329,13 +349,15 @@ void loop()
 {
   digitalWrite(13, digitalRead(8)); //Escribimpos en el LED el valor del BOTON
 }
+```
 
 ## 11 Entrada digital con dos botónes
 
 En esta práctica se amplió el ejercicio anterior utilizando dos botones y dos LEDs. Cada botón controla de manera independiente un LED, permitiendo comprobar cómo el Arduino puede leer varias entradas digitales y actuar sobre distintas salidas al mismo tiempo.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 //
 
@@ -354,13 +376,15 @@ void loop()
   digitalWrite(13, digitalRead(8)); //Escribimpos en el LED1 el valor del BOTON1
   digitalWrite(11, digitalRead(2)); //Escribimpos en el LED2 el valor del BOTON2
 }
+```
 
 ## 12 Entrada digital con condición
 
 En este ejercicio se agregó una estructura condicional para decidir qué hacer con el LED según el estado del botón. Si la lectura del pin 8 es `HIGH`, el LED se enciende; si la lectura es `LOW`, el programa lo apaga.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 //
 
@@ -383,13 +407,15 @@ void loop()
     digitalWrite(13, LOW);			//SI: apagamos el led1
   }
 }
+```
 
 ## 13 Entrada digital con condición (dos botones)
 
 Esta práctica aplica la misma lógica condicional a dos pares de entrada y salida. Cada botón es evaluado por separado y el programa enciende o apaga el LED correspondiente dependiendo de su estado.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 //
 
@@ -423,13 +449,15 @@ void loop()
     digitalWrite(11, LOW);			//SI: apagamos el led2
   }
 }
+```
 
 ## 14 Condición OR con botones
 
 En esta prueba se implementó una condición lógica OR utilizando dos botones. El LED se enciende cuando al menos uno de los dos botones está activado y solamente permanece apagado cuando ambos se encuentran desactivados.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 //
 
@@ -455,13 +483,15 @@ void loop()
   }
 
 }
+```
 
 ## 15 Condición AND con botones
 
 En este ejercicio se utilizó una condición lógica AND. Para que el LED se encienda es necesario que los dos botones estén activados simultáneamente; si cualquiera de ellos no está presionado, la salida permanece apagada.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 //
 
@@ -487,13 +517,15 @@ void loop()
   }
 
 }
+```
 
 ## 16 Contador
 
 En esta práctica se creó un contador controlado por un botón y representado mediante cuatro LEDs. Cada pulsación incrementa la variable `cuenta` y enciende un LED adicional. Cuando el valor llega a cinco, el contador regresa a cero y todos los LEDs se apagan para comenzar nuevamente.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 // CONTADOR
 
@@ -557,13 +589,15 @@ void loop()
     digitalWrite(10, HIGH);
   }
 }
+```
 
 ## 17 Inicio Servo
 
 En esta primera prueba con servomotor se utilizó la biblioteca `Servo.h` y se conectó el servo al pin 9. El programa ordena al motor colocarse en una posición de 90°, permitiendo verificar la comunicación entre el Arduino y el servomotor.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 // Incluímos la librería para poder controlar el servo
 #include <Servo.h>
@@ -582,13 +616,15 @@ void loop()
   // Desplazamos a la posición 90º
   servoMotor.write(90);
 }
+```
 
 ## 18 Posiciones Servo
 
 En este ejercicio se programó una secuencia automática para el servomotor. El motor se mueve a 0°, después a 90° y finalmente a 180°, esperando un segundo entre cada posición. Al terminar, la secuencia vuelve a comenzar.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 // Incluímos la librería para poder controlar el servo
 #include <Servo.h>
@@ -619,13 +655,15 @@ void loop()
   // Esperamos 1 segundo
   delay(1000);
 }
+```
 
 ## 19 Un servomotor con potenciómetro
 
 En esta práctica el movimiento del servomotor se controló mediante un potenciómetro conectado a la entrada analógica A0. El Arduino lee valores entre 0 y 1023 y utiliza `map()` para convertirlos en un rango de 0° a 180°, de modo que la posición del potenciómetro determina el ángulo del servo.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 // Incluímos la librería para poder controlar el servo
 #include <Servo.h>
@@ -653,13 +691,15 @@ void loop()
   // Esperamos 1 segundo
   delay(1000);
 }
+```
 
 ## 20 Dos servomotores con un potenciómetro
 
 En este ejercicio un solo potenciómetro controla dos servomotores al mismo tiempo. La lectura de A0 se transforma a un ángulo de 0° a 180° y esa misma posición se envía a ambos motores, haciendo que se desplacen de forma sincronizada.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 #include <Servo.h>
 int valor;		//variable que almacena la lectura analógica raw
@@ -693,13 +733,15 @@ void loop()
   //esperamos un poco para que se mueva
   delay(10);
 }
+```
 
 ## 21 Dos servomotores con dos potenciómetros
 
 En esta práctica se utilizaron dos potenciómetros para controlar dos servomotores de manera independiente. Las entradas A0 y A1 se leen por separado y cada valor se convierte en un ángulo distinto, permitiendo ajustar individualmente la posición de cada motor.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 #include <Servo.h>
 int valor1;		//variable que almacena la 
@@ -740,13 +782,15 @@ void loop()
   //esperamos un poco para que se mueva
   delay(10);
 }
+```
 
 ## 22 Servomotor con fuente externa
 
 En esta última práctica se trabajó con servomotores alimentados mediante una fuente externa. El Arduino continúa enviando las señales de control a los motores, mientras que la alimentación externa proporciona la energía necesaria para su movimiento. Para que el sistema funcione correctamente, la tierra de la fuente y la del Arduino deben compartir una referencia común.
 
-Código práctica :
-yml
+Código de la práctica:
+
+```cpp
 // C++ code
 #include <Servo.h>
 int valor;		//variable que almacena la lectura analógica raw
@@ -780,6 +824,7 @@ void loop()
   //esperamos un poco para que se mueva
   delay(10);
 }
+```
 
 ## Concluisón
 
